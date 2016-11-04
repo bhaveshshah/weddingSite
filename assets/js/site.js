@@ -52,7 +52,6 @@ $(function() {
         navigation: true
 
     });
-
     $(".home-menu").click(function() {
         $(this).toggleClass("active");
         $(this).toggleClass("remove");
