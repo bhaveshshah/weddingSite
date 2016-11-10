@@ -218,6 +218,11 @@ $(function() {
 
     $(window).load(function() {
         $("#loading").fadeOut(500);
-
     });
 });
+
+
+(function() {
+    console.clear();
+    console.log('************************************************** Bhavesh Shah **************************************************');
+})();
