@@ -604,6 +604,20 @@
     border: 4px solid #e5e5e5;
 }
 
+.event-location-wrapper {
+    background-image: url(../images/icon-left-top.png), url(../images/icon-right-top.png), url(../images/icon-left-bottom.png), url(../images/icon-right-bottom.png);
+    background-position: 5px 4px, 99% 4px, 5px 99%, 99% 99%;
+    background-repeat: no-repeat;
+    /* width: 80%; */
+    min-height: 565px;
+    /* margin-top: 142px; */
+    border: 3px solid #c5e0dc;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 71px;
+    z-index: 999;
+}
+
 .padding-right figure {
     padding-left: 0px;
 }
