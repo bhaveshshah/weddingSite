@@ -609,7 +609,7 @@
     background-position: 5px 4px, 99% 4px, 5px 99%, 99% 99%;
     background-repeat: no-repeat;
     /* width: 80%; */
-    min-height: 565px;
+    min-height: 400px;
     /* margin-top: 142px; */
     border: 3px solid #c5e0dc;
     background-color: #fff;
@@ -3160,4 +3160,18 @@ html {
         -webkit-transform: rotate(360deg) scale(0.8);
         transform: rotate(360deg) scale(0.8);
     }
+}
+
+.name-class{
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-left: 25px;
+    padding-left: 10px;
+    font-family: roboto;
+    color: #757575;
+    letter-spacing: 1px;
 }

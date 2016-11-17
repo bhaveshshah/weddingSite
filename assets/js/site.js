@@ -74,17 +74,9 @@ $(function() {
         }
     });
 
-    if ($("#countdown").length) {
-        $("#countdown").countdown({
-            until: new Date(2016, 11, 09)
-        });
-
-    }
-
     // Filltering
     $(window).load(function() {
         if ($('.gallery-part .gallery-img-sec').length) {
-
             var $container = $('.gallery-img-sec').isotope({
                 itemSelector: '.main-item',
                 layoutMode: 'fitRows'
